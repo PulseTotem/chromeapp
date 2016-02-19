@@ -1,0 +1,12 @@
+{
+  "name": "PulseTotem Kiosk",
+  "description": "The first kiosk for PulseTotem",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "images/pulsetotem-16.png", "128": "images/pulsetotem-128.png" }
+}
