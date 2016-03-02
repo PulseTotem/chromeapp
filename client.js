@@ -1,5 +1,11 @@
 window.onload = function() {
 
+    document.querySelector('#webview').addEventListener('permissionrequest', function(e) {
+        if (e.permission === 'media') {
+            e.request.allow();
+        }
+    });
+
     document.querySelector("#changeTag").onclick = function () {
         document.querySelector('#div-tag').style.display = "block";
         document.querySelector('#webview').style.display = "none";

@@ -1,7 +1,7 @@
 {
   "name": "PulseTotem Kiosk",
   "description": "The first kiosk for PulseTotem",
-  "version": "0.1",
+  "version": "0.2.0",
   "manifest_version": 2,
   "app": {
     "background": {
@@ -11,7 +11,9 @@
   "permissions": [
     "webview",
     "fullscreen",
-    "storage"
+    "storage",
+    "audioCapture",
+    "videoCapture"
   ],
   "kiosk_enabled": true,
   "icons": { "16": "images/pulsetotem-16.png", "128": "images/pulsetotem-128.png" }
