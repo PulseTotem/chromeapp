@@ -1,5 +1,7 @@
 window.onload = function() {
 
+    chrome.power.requestKeepAwake("display");
+
     document.querySelector('#webview').addEventListener('permissionrequest', function(e) {
         if (e.permission === 'media') {
             e.request.allow();
