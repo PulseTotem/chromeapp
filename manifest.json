@@ -9,7 +9,10 @@
     }
   },
   "permissions": [
+    "webview",
+    "fullscreen",
     "storage"
   ],
+  "kiosk_enabled": true,
   "icons": { "16": "images/pulsetotem-16.png", "128": "images/pulsetotem-128.png" }
 }
